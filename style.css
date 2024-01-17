@@ -460,17 +460,36 @@
     border-radius: 16px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
-    padding: 25px 25px 25px 20px;
     margin: 10px 0;
+    padding: 0;
+}
+.card i, h3,  p {
+    padding-left : 20px;
+    padding-top: 10px;
 }
 .why-choose-us-cards .one-card .card{
     margin-top: 5px;
 }
+/*newsletter*/
 
 .newsletter-text{
     width: 270px;
     
-   
+}
+
+.newsletter-text{
+    padding: 32px;
+}
+.newsletter-text p{
+    width: 270px;
+    margin: 10px 0;
+}
+.newsletter-img{
+    width: 335px;
+}
+.newsletter-section{
+    flex-direction: column;
+    row-gap: 20px;
 }
 /*footer section*/
 .footer-section {
@@ -505,5 +524,6 @@
     margin: 10px;
      
    }
+
  
 }
