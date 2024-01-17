@@ -1,0 +1,331 @@
+/* shared css */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Mulish;
+}
+.container{
+    width: 1170px;
+    margin: 20px auto;
+}
+
+/* header css*/
+.hero-div{
+    
+    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png) ;
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    
+}
+.hero-area{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 16px;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.1));
+
+}
+
+.hero-content{
+    text-align: center;
+    margin: 80px auto;
+}
+.hero-text h1{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.hero-text p {
+    color: #FFF;
+    width: 676px;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 26px;
+}
+.hero-input-div {
+    display: flex;
+    width: 800px;
+    justify-content: center;
+  
+    
+}
+.hero-inputs{
+    width: 800px;
+    margin: 50px auto;
+}
+.input {
+    position: relative;
+    padding-left: 30px;
+
+
+  }
+.input i {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    color: rgba(19, 19, 24, 0.50);
+}
+.input input{
+    padding: 15px 20px;
+    color: rgba(19, 19, 24, 0.50);
+    border-radius: 8px;
+    border: none;
+}
+.hero-input-div button {
+    background-color: #FF5400;
+    border-radius: 8px;
+    border: none;
+    padding: 15px 20px;
+    width: 174px;
+    color: #FFF;
+}
+
+
+/* popular tour style*/
+.popular-tour-content{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+.popular-tour-content h2 {
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.popular-tour-text {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 577px;
+    margin-top: 20px;
+}
+.popular-tour-text ul li{
+    width: 525px;
+    padding: 10px 0;
+    margin: 10px 20px;
+}
+.popular-tour-text button {
+    background-color: #FF5400;
+    border-radius: 8px;
+    border: none;
+    padding: 13px 25px;
+    color: #FFF;
+    font-weight: 800;
+    margin-top: 40px;
+
+    }
+.popular-tour-img{
+    width: 540px;
+    height: 550px;
+     
+}
+
+/*destination section*/
+.destination-section{
+    margin: 80px 0;
+}
+.destination-text {
+    text-align: center;
+    width: 640px;
+    margin: 35px auto;
+}
+.destination-text h2{
+    color: #131318;
+    font-weight: 800;
+}
+.destination-text p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px; 
+    margin: 30px 0;
+}
+.destination-img-gallery .img-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    
+}
+ .destination-img-gallery .img{
+    position: relative;
+    
+}
+.destination-img-gallery .img .text{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    
+}
+
+/* why choose us section*/
+.why-choose-us-header {
+    text-align: center;
+    margin: 30px auto;
+    width: 640px;
+}
+.why-choose-us-header h2{
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.why-choose-us-header p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 14px;
+    line-height: 26px;
+
+}
+.why-choose-us-cards .two-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.why-choose-us-cards .card{
+    width: 525px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 25px 25px 25px 20px;
+}
+.why-choose-us-cards .card i{
+    width: 64px;
+    height: 64px;
+    color: #FF5400;
+    font-size: 32px;
+}
+.why-choose-us-cards .card h3{
+    color: #131318;
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px 0;
+
+}
+.why-choose-us-cards .card p{
+    color: #5A5A5D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.why-choose-us-cards .one-card .card{
+ margin: 20px auto;
+ 
+}
+/* newsletter section*/
+
+.newsletter-section{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter-text{
+     width: 450px;
+     border-radius: 16px;
+     border: 1px solid #FF5400;
+
+    
+}
+.newsletter-text h3{
+    color: #131318;
+    font-size: 22px;
+    font-weight: 800;
+    
+}
+.newsletter-text p{
+    color: #5A5A5D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px; 
+    padding-right: 30px;
+    margin : 30px 0 30px;
+    width: 300px;
+}
+.newsletter-text{
+    padding: 50px;
+}
+.newsletter-inputs{
+    display: flex;
+    flex-direction: column;
+}
+.newsletter-inputs input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px;
+    border:none;
+    margin: 10px 0;
+    font-size: 13px;
+}
+.newsletter-inputs button{
+    border-radius: 8px;
+    background: #FF5400;
+    border:none;
+    padding: 10px;
+    color: #FFF;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.newsletter-img{
+    width: 600px;
+}
+/*footer section*/
+.footer-section {
+    width:100vw;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 40px 0;
+}
+.footer-content{
+    width: 820px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #5A5A5D;
+}
+.footer-content-heading .footer-logo {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+
+}
+.footer-content-heading{
+ margin: 30px;
+}
+.footer-content-heading h3{
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-weight: 800;
+    padding: 5px 10px 0;
+
+}
+.footer-content-heading h3 span{
+    color: #FF5400;
+}
+.footer-content-heading p{
+    width: 720px;
+    margin: 0 auto;
+    color: #5A5A5D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.footer-icons i {
+    font-size: 22px;
+    padding: 0 15px;
+}
+.footer-section p{
+    margin: 60px 0 40px;
+}
